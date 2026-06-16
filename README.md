@@ -2,7 +2,9 @@
 
 Lura ist eine moderne Android-App, die RSS-Feeds, tagesaktuelle Nachrichten und Internetradio mit modernster KI-Technologie vereint. Entwickelt mit **Jetpack Compose** und **Material 3**, bietet Lura eine elegante und hochgradig anpassbare Benutzererfahrung.
 
-![Vorschau](Images/Preview.png)
+<p align="center">
+  <img src="Images/Preview.png" width="800" alt="Lura Preview">
+</p>
 
 ## ✨ Funktionen
 
@@ -12,16 +14,10 @@ Bleib immer auf dem Laufenden. Lura importiert deine Lieblings-Feeds und bietet 
 - **News-Verwaltung**: Folge großen Zeitungen oder füge eigene RSS-Quellen hinzu.
 - **Offline-Lesen**: Speichere Artikel für später.
 
-![Home](Images/Home.png) ![News](Images/News.png)
-*Home-Bildschirm und News-Übersicht*
-
 ### 🤖 KI-Power (Summarizer)
 Keine Zeit, lange Artikel zu lesen? Lura nutzt **Google Gemini** oder **On-Device-Modelle** (via Hugging Face), um dir prägnante Zusammenfassungen zu erstellen.
 - **Gemini Pro/Flash**: High-End-KI in der Cloud.
 - **On-Device AI**: Maximale Privatsphäre durch lokale Verarbeitung mit `.litertlm` Modellen.
-
-![Artikel & AI](Images/Articles.png)
-*Artikelansicht mit KI-Zusammenfassung*
 
 ### 📻 Nostalgisches Internetradio
 Erlebe Radio neu. Lura kombiniert globales Internetradio mit einem klassischen Tuner-Feeling.
@@ -29,10 +25,16 @@ Erlebe Radio neu. Lura kombiniert globales Internetradio mit einem klassischen T
 - **Rausch-Simulation**: Authentisches Feedback beim Suchen von Sendern.
 - **Sleep-Timer & Favoriten**: Deine Lieblingssender immer griffbereit.
 
-![Radio](Images/Radio.png)
-*Interaktives Radio mit Frequenz-Tuner*
+## 📸 Screenshots
 
-### 🎨 Design & Anpassung
+<p align="center">
+  <img src="Images/Home.png" width="200" alt="Home">
+  <img src="Images/News.png" width="200" alt="News">
+  <img src="Images/Articles.png" width="200" alt="Articles">
+  <img src="Images/Radio.png" width="200" alt="Radio">
+</p>
+
+## 🎨 Design & Anpassung
 - **Material 3 & Dynamic Color**: Passt sich farblich deinem System an (Android 12+).
 - **Pitch Black Mode**: Echter Schwarzmodus für OLED-Displays zur Akkuschonung.
 - **Barrierefreiheit**: Einstellbare Schriftgrößen, Zeilenabstände und Text-to-Speech (Vorlesefunktion).
