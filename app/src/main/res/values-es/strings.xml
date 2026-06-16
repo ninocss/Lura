@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Lura</string>
+
+    <!-- Navigation -->
+    <string name="nav_title_feeds">RSS</string>
+    <string name="nav_title_saved">Guardados</string>
+    <string name="nav_title_articles">Artículos</string>
+    <string name="nav_content_desc_settings">Ajustes</string>
+    <string name="action_back">Atrás</string>
+
+    <!-- Feeds Screen -->
+    <string name="feed_unread">No leídos</string>
+    <string name="feed_unread_items">%d artículos no leídos</string>
+    <string name="feed_category_default">Por defecto</string>
+    <string name="feed_uncategorized">Sin categoría</string>
+
+    <!-- Items Screen -->
+    <string name="search_placeholder">Buscar en el feed</string>
+    <string name="badge_unread">S</string>
+    <string name="section_unread">No leídos</string>
+    <string name="items_empty">Nada aquí</string>
+
+    <!-- Feed Items Screen -->
+    <string name="group_today">Hoy</string>
+    <string name="action_mark_all_unread">Marcar todo como no leído</string>
+    <string name="action_mark_all_read">Marcar todo como leído</string>
+
+    <!-- Article / Item Detail -->
+    <string name="action_summarize">Resumir</string>
+    <string name="ai_summary_title">Resumen IA</string>
+    <string name="action_regenerate">Regenerar</string>
+    <string name="action_retry">Reintentar</string>
+    <string name="action_mark_unread">Marcar como no leído</string>
+    <string name="action_mark_read">Marcar como leído</string>
+    <string name="action_unsave">Quitar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_saved">Guardado</string>
+    <string name="action_stop_tts">Detener</string>
+    <string name="action_play_tts">Escuchar</string>
+    <string name="action_clean_view">Vista limpia</string>
+    <string name="action_web_view">Vista web</string>
+    <string name="summary_label">Resumen</string>
+    <string name="tts_initializing">Inicializando reproductor de audio…</string>
+    <string name="toast_no_api_key">Configure primero su clave API de Gemini en los ajustes.</string>
+    <string name="error_summary_failed">Error al resumir</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_ai_title">Resumen IA con Gemini</string>
+    <string name="settings_ai_description">Use Gemini para obtener resúmenes concisos de artículos largos con un toque. Su clave API se almacena de forma segura en su dispositivo.</string>
+    <string name="settings_api_key_label">Clave API de Gemini</string>
+    <string name="settings_api_key_placeholder">AIzaSy…</string>
+    <string name="settings_content_desc_hide_key">Ocultar clave</string>
+    <string name="settings_content_desc_show_key">Mostrar clave</string>
+    <string name="action_create_key">Crear clave</string>
+    <string name="section_general">General</string>
+    <string name="settings_tab_appearance">Apariencia</string>
+    <string name="settings_manage_feeds">Gestionar fuentes de feed</string>
+    <string name="settings_manage_feeds_desc">Añadir, categorizar o eliminar feeds RSS</string>
+    <string name="settings_content_desc_key_icon">Clave</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_light">Claro</string>
+    <string name="settings_theme_system">Sistema</string>
+    <string name="settings_theme_dark">Oscuro</string>
+    <string name="settings_dynamic_color">Color dinámico</string>
+    <string name="settings_dynamic_color_desc">Usar tema del sistema (Android 12+)</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_language_desc">Idioma de la interfaz</string>
+    <string name="settings_lang_system">Predeterminado del sistema</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_lang_de">Deutsch</string>
+    <string name="settings_lang_fr">Français</string>
+    <string name="settings_lang_es">Español</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="settings_about_desc">Lector RSS con resúmenes IA</string>
+    <string name="settings_model">Modelo</string>
+    <string name="settings_model_flash">Flash</string>
+    <string name="settings_model_flash_desc">Rápido &amp; eficiente</string>
+    <string name="settings_model_pro">Pro</string>
+    <string name="settings_model_pro_desc">Razonamiento avanzado</string>
+    <string name="settings_model_2flash">2.0 Flash</string>
+    <string name="settings_model_2flash_desc">Generación anterior</string>
+
+    <!-- Manage Feeds Screen -->
+    <string name="manage_feeds_title">Fuentes</string>
+    <string name="add_feed_title">Añadir nuevo feed</string>
+    <string name="feed_url_label">URL del feed</string>
+    <string name="feed_url_placeholder">https://…</string>
+    <string name="action_paste">Pegar</string>
+    <string name="category_label">Categoría (opcional)</string>
+    <string name="category_placeholder">p. ej. Noticias, Tecnología</string>
+    <string name="action_follow_feed">Seguir feed</string>
+    <string name="feeds_empty">Aún no hay feeds</string>
+    <string name="dialog_remove_feed_title">Eliminar feed</string>
+    <string name="dialog_remove_feed_message">¿Está seguro de que desea eliminar &quot;%s&quot;?</string>
+    <string name="action_remove">Eliminar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="content_desc_delete">Eliminar</string>
+
+    <!-- Unread Items Screen -->
+    <string name="unread_title">No leídos</string>
+    <string name="unread_empty">No hay artículos no leídos</string>
+
+    <!-- Saved / Starred Items Screen -->
+    <string name="saved_title">Guardados</string>
+    <string name="saved_empty">Aún no hay artículos guardados</string>
+
+    <!-- Reading Settings -->
+    <string name="settings_refresh_title">Actualizar auto.</string>
+    <string name="settings_refresh_desc">Buscar nuevos artículos periódicamente</string>
+    <string name="settings_refresh_manual">Manual</string>
+    <string name="settings_refresh_15min">15 min</string>
+    <string name="settings_refresh_30min">30 min</string>
+    <string name="settings_refresh_1h">1 hora</string>
+    <string name="settings_refresh_2h">2 horas</string>
+    <string name="settings_refresh_4h">4 horas</string>
+    <string name="settings_hide_read">Ocultar leídos</string>
+    <string name="settings_hide_read_desc">Mostrar solo artículos no leídos en listas</string>
+    <string name="settings_article_view">Vista predeterminada</string>
+    <string name="settings_article_view_desc">Elegir la vista predeterminada para artículos</string>
+    <string name="settings_article_view_clean">Vista limpia</string>
+    <string name="settings_article_view_webview">WebView</string>
+
+    <!-- Background Refresh / Notifications -->
+    <string name="notification_channel_name">Nuevos artículos</string>
+    <string name="notification_channel_desc">Notificaciones de nuevos artículos RSS</string>
+    <string name="notification_new_articles_title">Nuevos artículos</string>
+    <plurals name="notification_new_articles_body">
+        <item quantity="one">%d artículo nuevo</item>
+        <item quantity="other">%d artículos nuevos</item>
+    </plurals>
+
+    <!-- Gemini Summarizer -->
+    <string name="gemini_prompt">Resuma este artículo de forma concisa en %s. Destaque los detalles clave en viñetas:\n\n</string>
+    <string name="gemini_error_empty_key">La clave API está vacía. Configúrela en los ajustes.</string>
+    <string name="gemini_error_invalid_response">Respuesta no válida de Gemini.</string>
+    <string name="gemini_error_unknown">Error desconocido</string>
+    <string name="gemini_error_format">Error de Gemini (%1$d): %2$s</string>
+</resources>
