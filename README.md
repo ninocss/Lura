@@ -65,4 +65,4 @@ Erlebe Radio neu. Lura kombiniert globales Internetradio mit einem klassischen T
 - Für Dynamic Color wird Android 12+ benötigt.
 
 ---
-Entwickelt von [nino161er](https://github.com/nino161er)
+Entwickelt von [ninocss](https://github.com/ninocss)
